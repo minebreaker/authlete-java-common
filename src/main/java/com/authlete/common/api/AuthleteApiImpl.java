@@ -741,6 +741,10 @@ class AuthleteApiImpl implements AuthleteApi
         // Error message.
         String message = cause.getMessage();
 
+        if (ctx == null) {
+            return new AuthleteApiException(message, cause);
+        }
+
         HttpURLConnection con = ctx.connection();
 
         if (con == null)

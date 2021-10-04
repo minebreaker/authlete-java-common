@@ -1,3 +1,19 @@
+This repository is a fork of https://github.com/authlete/authlete-java-common
+The main purpose of forking is to provide single executable cli(via graal)
+
+## Build
+
+* Need Graal and native-image available in the path
+
+```
+mvn package
+./build-native.sh
+```
+
+
+
+================ Original README follows... ================
+
 Authlete Common Library for Java
 ================================
 

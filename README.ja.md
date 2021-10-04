@@ -1,3 +1,7 @@
+このリポジトリは https://github.com/authlete/authlete-java-common のフォークです。
+フォークの目的は、実行可能バイナリを(Graalを使い)作成することです。
+
+
 Java 用 Authlete 共通ライブラリ
 ===============================
 
